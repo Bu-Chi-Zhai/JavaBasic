@@ -1,0 +1,17 @@
+ArrayList, resizable array
+Access: O(1)
+AddFirst: O(n)
+AddLast: Amortized O(1)
+RemoveFirst: O(n) (noholes)
+Set: O(1)
+
+use 1.5x growing rate.
+
+利用前面变成空洞的内存空间
+
+
+1 + x = x^3 => 1.32
+
+1 + x + x^2 = x^4 => 1.47
+
+1 + x + x^2 + .. + x^ n-2 = x^n => 1.618
